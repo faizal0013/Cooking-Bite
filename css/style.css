@@ -316,7 +316,6 @@
   position: absolute;
   padding: 20px;
   background-color: #a79fe1b5;
-  transition: transform 1s;
 }
 
 .our-clients-massage-containers p {
@@ -423,4 +422,74 @@
 .social-icon {
   height: 60px;
   width: 60px;
+}
+
+.account-container {
+  font-family: var(--roboto-sans-serif);
+  background-image: url(../images/kitchen-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 20px 10px;
+  height: 41em;
+}
+
+.form-section {
+  width: 22em;
+  margin: 102px auto;
+  background-color: var(--white-color);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.69);
+}
+
+.m-t-25 {
+  margin-top: 25px;
+}
+
+.form-massage {
+  font-size: 18px;
+}
+
+.msg-p {
+  font-size: 34px;
+}
+
+#log-in {
+  position: relative;
+}
+
+.form-input {
+  display: block;
+  width: 23em;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.form-input-btn {
+  border: none;
+  background: transparent;
+  width: 25em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #ececec;
+  margin-bottom: 20px;
+}
+
+.form-input-btn:hover {
+  background-color: blue;
+}
+
+.forgot-password {
+  right: 25px;
+  position: absolute;
+  bottom: 58px;
+  font-size: 14px;
+}
+
+.massage-error {
+  display: block;
+  color: red;
 }
