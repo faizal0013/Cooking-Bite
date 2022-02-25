@@ -128,12 +128,10 @@
 .dishe-container-heading h2 {
   display: inline-block;
   width: 116px;
-  margin: 25px auto;
-  background-color: red;
-  border-radius: 35px;
+  margin: 10px auto;
   font-weight: bold;
-  color: var(--white-color);
   font-size: 25px;
+  text-decoration: underline;
 }
 
 .dishes-containers {
@@ -148,13 +146,6 @@
 
 .dish-img-border-containers {
   padding: 15px;
-}
-
-.img-a-container {
-  width: 400px;
-  height: 400px;
-  display: inline-block;
-  margin-bottom: 15px;
 }
 
 .dish-img-btn-containers {
@@ -187,6 +178,11 @@
   margin: 25px 0;
   border-radius: 20px;
   position: relative;
+}
+
+.btn-more a {
+  text-decoration: none;
+  color: black;
 }
 
 .btn-more:hover {
@@ -265,12 +261,12 @@
   margin: 20px 0;
 }
 
-.about-us h2 {
-  background-color: var(--blue-color);
-  border-radius: 29px;
+.about-us-heading {
   width: 170px;
   margin: 0 auto;
-  color: var(--white-color);
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .about-us p {
@@ -308,8 +304,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 33px;
-  background-color: orange;
-  border-radius: 29px;
+  text-decoration: underline;
 }
 
 .our-clients-massage-containers {
@@ -478,7 +473,7 @@
 }
 
 .form-input-btn:hover {
-  background-color: blue;
+  background-color: var(--blue-color);
 }
 
 .forgot-password {
@@ -507,4 +502,48 @@
 .checked-box-btn {
   height: 15px;
   width: 15px;
+}
+
+.about-page-container {
+  font-family: var(--lato-sans-serif);
+  height: 30em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px;
+  background-image: url("../images/about-us-banner.jpg");
+}
+
+.about-page-section {
+  margin: 20px 0;
+}
+
+.about-page-section-paragraph {
+  width: 45em;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-container {
+  margin: 0 auto;
+  font-family: var(--open-sans-serif);
+  padding: 10px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../images/about-us-banner.jpg");
+}
+
+.menu-section {
+  margin: 30px 0;
+}
+
+.border-img {
+  border: 2px solid black;
+  width: 25em;
+  height: 20em;
+  padding: 10px;
 }
