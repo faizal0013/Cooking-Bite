@@ -420,8 +420,8 @@
 }
 
 .social-icon {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 .account-container {
@@ -431,12 +431,15 @@
   background-repeat: no-repeat;
   background-position: right;
   padding: 20px 10px;
-  height: 41em;
+  height: 43em;
 }
 
 .form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 22em;
-  margin: 102px auto;
+  margin: 15px auto;
   background-color: var(--white-color);
   padding: 25px;
   border-radius: 20px;
@@ -452,11 +455,7 @@
 }
 
 .msg-p {
-  font-size: 34px;
-}
-
-#log-in {
-  position: relative;
+  font-size: 30px;
 }
 
 .form-input {
@@ -483,13 +482,29 @@
 }
 
 .forgot-password {
-  right: 25px;
-  position: absolute;
-  bottom: 58px;
+  margin-left: 80px;
   font-size: 14px;
 }
 
 .massage-error {
   display: block;
   color: red;
+}
+
+.form-btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: var(--blue-color);
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.hide-form {
+  display: none;
+}
+
+.checked-box-btn {
+  height: 15px;
+  width: 15px;
 }

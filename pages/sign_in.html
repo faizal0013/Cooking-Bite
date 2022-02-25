@@ -38,37 +38,87 @@
           <p class="m-t-25 msg-p">Sign in with your email</p>
           <p class="m-t-25">
             Don't have a account?
-            <a href="#">Sign up</a>
+            <button id="sign-up-btn" class="form-btn">Sign up</button>
           </p>
         </div>
         <form action="#" id="log-in" class="m-t-25">
           <input
             class="form-input"
             type="text"
-            id="user-name"
-            name="user-name"
+            name="log-in-user-name"
+            id="log-in-user-name"
             placeholder="Username"
           />
           <input
             class="form-input"
-            id="user-password"
-            name="user-password"
+            name="log-in-user-password"
+            id="log-in-user-password"
             type="password"
             placeholder="Password"
           />
           <input
-            class="m-t-25"
-            style="height: 15px; width: 15px"
+            class="m-t-25 checked-box-btn"
             type="checkbox"
-            name="show-password"
-            id="show-password"
+            name="show-password-log-in"
+            id="show-password-log-in"
           />
-          <label for="show-password">Show Password</label>
+          <label for="show-password-log-in">Show Password</label>
           <a href="#" class="forgot-password">Forgot password?</a>
           <input
             class="form-input form-input-btn"
             type="submit"
             value="continue"
+          />
+        </form>
+      </div>
+      <div class="form-section hide-form">
+        <div class="form-massage">
+          <p class="m-t-25 msg-p">Sign Up with your email</p>
+          <p class="m-t-25">
+            Already have an account?
+            <button id="sign-in-btn" class="form-btn">Sign in</button>
+          </p>
+        </div>
+        <form action="#" id="sign-in" class="m-t-25" target="_black">
+          <input
+            class="form-input"
+            type="text"
+            name="sign-in-full-name"
+            id="sign-in-full-name"
+            placeholder="Full Name"
+          />
+          <input
+            class="form-input"
+            type="text"
+            name="sign-in-user-name"
+            id="sign-in-user-name"
+            placeholder="Username"
+          />
+          <input
+            class="form-input"
+            name="sign-in-user-password"
+            id="sign-in-user-password"
+            type="password"
+            placeholder="Password"
+          />
+          <input
+            class="form-input"
+            name="sign-in-user-re-password"
+            id="sign-in-user-re-password"
+            type="password"
+            placeholder="Re-Password"
+          />
+          <input
+            class="m-t-25 checked-box-btn"
+            type="checkbox"
+            id="show-password-sign-up"
+            name="show-password-sign-up"
+          />
+          <label for="show-password-sign-up">Show Password</label>
+          <input
+            class="form-input form-input-btn"
+            type="submit"
+            value="create account"
           />
         </form>
       </div>
@@ -109,7 +159,7 @@
         <div class="space-between bold-text">
           <p>Launch: 1:00 to 2:30 pm</p>
         </div>
-        <div class="opening-section">
+        <div class="opening-section bold-text">
           <p>Sunday: Closed</p>
         </div>
       </div>
