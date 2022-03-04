@@ -476,9 +476,14 @@
   background-color: var(--blue-color);
 }
 
-.forgot-password {
+#forgot-password {
   margin-left: 80px;
   font-size: 14px;
+  border: none;
+  background-color: transparent;
+  color: var(--blue-color);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .massage-error {
@@ -546,4 +551,80 @@
   width: 25em;
   height: 20em;
   padding: 10px;
+}
+
+.card-content {
+  font-family: var(--open-sans-serif);
+}
+
+.card-section {
+  width: 80em;
+  margin: 15px auto;
+}
+
+.card-m {
+  margin: 15px 0;
+}
+
+.main-card {
+  width: 70em;
+  margin: 10px auto;
+}
+
+.cart-img {
+  width: 70px;
+  height: 65px;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.cart p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remover-btn {
+  border: none;
+  border-color: var(--red-color);
+  background-color: var(--red-color);
+  color: white;
+  font-weight: bold;
+  width: 70px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 246px;
+  color: red;
+  font-weight: bold;
+}
+
+.area-checkout {
+  text-align: right;
+}
+
+.btn-checkout {
+  width: 110px;
+  height: 40px;
+  margin: 0 10px;
+  font-weight: bold;
+  border: none;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-checkout:hover {
+  background-color: var(--white-color);
+  color: black;
+  border: 1px solid var(--blue-color);
 }

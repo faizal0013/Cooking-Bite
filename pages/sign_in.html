@@ -16,10 +16,10 @@
           <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a href="Menu.html" class="nav-link">Menu</a>
+          <a href="menu.html" class="nav-link">Menu</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Cart</a>
+          <a href="cart.html" class="nav-link">Cart</a>
         </li>
         <li class="nav-item">
           <a href="sign_in.html" class="nav-link">Sign In</a>
@@ -41,7 +41,7 @@
             <button id="sign-up-btn" class="form-btn">Sign up</button>
           </p>
         </div>
-        <form action="#" id="log-in" class="m-t-25">
+        <form action="#" method="post" id="log-in" class="m-t-25">
           <input
             class="form-input"
             type="text"
@@ -63,7 +63,7 @@
             id="show-password-log-in"
           />
           <label for="show-password-log-in">Show Password</label>
-          <a href="#" class="forgot-password">Forgot password?</a>
+          <button id="forgot-password">Forgot password?</button>
           <input
             class="form-input form-input-btn"
             type="submit"
@@ -79,7 +79,13 @@
             <button id="sign-in-btn" class="form-btn">Sign in</button>
           </p>
         </div>
-        <form action="#" id="sign-in" class="m-t-25" target="_black">
+        <form
+          action="#"
+          method="post"
+          id="sign-in"
+          class="m-t-25"
+          target="_black"
+        >
           <input
             class="form-input"
             type="text"
@@ -195,6 +201,7 @@
         <div style="margin-top: 10px">&copy; 2022</div>
       </div>
     </footer>
+
     <script src="../js/main.js"></script>
     <script src="../js/account.js"></script>
   </body>
