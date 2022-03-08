@@ -1,23 +1,23 @@
-// "use strict";
+'use strict';
 
-// // variable
-// const go_arrow = document.getElementById("go-arrow");
-// const header = document.querySelector(".header");
+// variable
+const go_arrow = document.getElementById('go-arrow');
+const header = document.querySelector('.header');
 
-// // scroll
-// window.addEventListener("scroll", () => {
-//   if (window.pageYOffset > 100) {
-//     go_arrow.style.display = "block";
-//   } else {
-//     go_arrow.style.display = "none";
-//   }
-// });
+// scroll
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 100) {
+    go_arrow.style.display = 'block';
+  } else {
+    go_arrow.style.display = 'none';
+  }
+});
 
-// const scrollToUp = function () {
-//   document.documentElement.scrollTop = 0;
-// };
+const scrollToUp = function () {
+  document.documentElement.scrollTop = 0;
+};
 
-// go_arrow.addEventListener("click", scrollToUp);
+go_arrow.addEventListener('click', scrollToUp);
 
 // // header animation
 // const haderHover = function (e) {
