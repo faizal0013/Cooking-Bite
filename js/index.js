@@ -7,13 +7,13 @@ const right_arrow = document.getElementById("right-arrow");
 const sliders = document.querySelectorAll(".our-clients-massage-containers");
 
 // background image changer
-img_slider.style.backgroundImage = 'url("../images/slider-1.jpg")';
+img_slider.style.backgroundImage = 'url("./images/slider-1.jpg")';
 setInterval(
   () =>
     (img_slider.style.backgroundImage =
       img_slider.style.backgroundImage === 'url("../images/slider-1.jpg")'
-        ? 'url("../images/slider-2.jpg")'
-        : 'url("../images/slider-1.jpg")'),
+        ? 'url("./images/slider-2.jpg")'
+        : 'url("./images/slider-1.jpg")'),
   5000
 );
 
